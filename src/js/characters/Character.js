@@ -2,6 +2,7 @@ export default class Character {
   constructor(distance) {
     this.distance = distance;
     this.stoned = false;
+    this._attack = null;
   }
 
   get attack() {
